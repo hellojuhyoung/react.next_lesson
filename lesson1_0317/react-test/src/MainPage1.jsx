@@ -7,6 +7,7 @@ import MainDetail5 from "./MainDetail5";
 import MainDetail6 from "./MainDetail6";
 import MainDetail7 from "./MainDetail7";
 import { useState } from "react";
+import { Button } from "antd";
 
 const MainPage1 = () => {
   // 첫번째 숫자 + - 1씩 되게 만들어 주세요 (함수 자식에서)
@@ -20,6 +21,9 @@ const MainPage1 = () => {
   };
   return (
     <div>
+      <Button type="primary" ghost>
+        Primary
+      </Button>
       출력
       <MainDetail1 number={number} setNumber={setNumber} />
       <MainDetail2 hello={hello} setHello={setHello} />

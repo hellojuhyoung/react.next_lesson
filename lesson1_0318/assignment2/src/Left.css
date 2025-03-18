@@ -1,0 +1,33 @@
+/* .imageContainer {
+  display: flex;
+  flex-direction: column;
+} */
+
+.main {
+  max-width: 500px;
+  margin: 0 auto; /* Center horizontally */
+  width: 100%; /* Important */
+}
+
+.main img {
+  border: 3px solid black;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%; /* Important: Make main image container responsive */
+}
+
+.sub {
+  display: flex;
+  justify-content: space-evenly; /* Evenly distribute sub-images */
+  margin-top: 10px;
+}
+
+.sub div {
+  cursor: pointer;
+}
+
+.sub img {
+  border: 3px solid black;
+  max-width: 100px;
+  max-height: 100px;
+}

@@ -1,0 +1,13 @@
+.App {
+  display: flex; /* Enable Flexbox on the App container */
+  width: 100vw; /* Take up the full viewport width */
+  height: 100vh; /* Take up the full viewport height */
+}
+
+.left {
+  flex: 1; /* Make the left div take up 1 flex unit */
+}
+
+.right {
+  flex: 1; /* Make the right div take up 1 flex unit */
+}
